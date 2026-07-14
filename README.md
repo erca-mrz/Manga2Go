@@ -15,7 +15,7 @@ Convierte carpetas de imágenes (WebP, JPG, PNG...) en archivos PDF de forma rá
 - ⏹ Cancelación de la conversión.
 - 📊 Barra de progreso.
 - 📝 Registro detallado del proceso.
-- 🪟 Interfaz gráfica sencilla.
+- 👓 Interfaz gráfica sencilla.
 - 🚀 Aplicación portátil (no requiere instalación).
 
 ---
@@ -66,3 +66,4 @@ MIT License
 ---
 
 Desarrollado por **Erick Calderón**.
+
