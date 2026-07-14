@@ -1,23 +1,68 @@
-# Manga2Go
+# 📚 Manga2Go
 
-Convierte carpetas con imagenes (WebP, JPG, PNG...) a PDF.
+Convierte carpetas de imágenes (WebP, JPG, PNG...) en archivos PDF de forma rápida y sencilla.
 
-## Características
+![Captura principal](assets/screenshot1.png)
 
-- Conversión por capítulos
-- Conversión de una carpeta completa
-- Detección automática
-- Barra de progreso
-- Cancelación
-- Reemplazo opcional de PDFs
-- Interfaz gráfica
+---
 
-## Capturas
+## ✨ Características
 
-(una imagen)
+- 📁 Convierte una carpeta completa de imágenes a PDF.
+- 📚 Convierte bibliotecas completas (una carpeta por capítulo).
+- 🔍 Detecta automáticamente capítulos ya convertidos.
+- ♻ Permite reemplazar PDFs existentes.
+- ⏹ Cancelación de la conversión.
+- 📊 Barra de progreso.
+- 📝 Registro detallado del proceso.
+- 🪟 Interfaz gráfica sencilla.
+- 🚀 Aplicación portátil (no requiere instalación).
 
-## Instalación
+---
 
-pip install -r requirements.txt
+## 📷 Capturas
 
-python main.py
+### Pantalla principal
+
+![Principal](assets/screenshot1.png)
+
+### Comparación de capítulos
+
+![Comparación](assets/screenshot2.png)
+
+### Conversión finalizada
+
+![Finalizado](assets/screenshot3.png)
+
+---
+
+## 🚀 Descarga
+
+Ve a la sección **Releases** y descarga la versión más reciente.
+
+No requiere instalación.
+
+Solo:
+
+1. Descargar
+2. Descomprimir
+3. Ejecutar **Manga2Go.exe**
+
+---
+
+## 🛠 Tecnologías
+
+- Python 3.14
+- CustomTkinter
+- Pillow
+- PyInstaller
+
+---
+
+## 📄 Licencia
+
+MIT License
+
+---
+
+Desarrollado por **Erick Calderón**.

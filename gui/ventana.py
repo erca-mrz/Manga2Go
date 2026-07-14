@@ -7,8 +7,7 @@ from threading import Thread
 from core.converter import convertir
 
 from core.control import (
-    detener,
-    reiniciar
+    detener
 )
 
 from core.utils import (
@@ -28,6 +27,8 @@ from core import estado
 from core.estado import detener
 
 from gui.ui import UI
+
+from core.resources import recurso
 
 ANCHO_VENTANA = 900
 ALTO_VENTANA = 600
@@ -317,8 +318,12 @@ def crear_ventana():
 
     app = ctk.CTk()
 
-    app.iconbitmap("assets/icon.ico")
-    app.title("📄 Manga2Go 1.0")
+    app.iconbitmap(
+
+        recurso("assets/icon.ico")
+
+    )
+    app.title("Manga2Go 1.0")
 
     app.geometry(
         f"{ANCHO_VENTANA}x{ALTO_VENTANA}"
@@ -373,7 +378,7 @@ def crear_titulo(frame):
 
         frame,
 
-        text="📄 Manga2Go 1.0",
+        text="Manga2Go",
 
         font=("Segoe UI", 24, "bold")
 
