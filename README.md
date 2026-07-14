@@ -63,7 +63,4 @@ Solo:
 
 MIT License
 
----
-
-Desarrollado por **Erick Calderón**.
 
