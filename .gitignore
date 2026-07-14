@@ -1,18 +1,18 @@
 # Entorno virtual
 .venv/
 
+# Python
+__pycache__/
+*.py[cod]
+
 # PyInstaller
 build/
 dist/
 *.spec
 
-# Python
-__pycache__/
-*.pyc
-
-# VS Code
+# VSCode
 .vscode/
 
-# Archivos del sistema
+# Windows
 Thumbs.db
-.DS_Store
+desktop.ini
